@@ -47,4 +47,10 @@ public class bank {
     public String getBankkontonummer() {
         return bankkontonummer;
     }
+    public void setBankkontonummer(String bankkontonummer) {
+        this.bankkontonummer = bankkontonummer;
+    }
+    public String getBankname() {
+        return bankname;
+    }
 }
