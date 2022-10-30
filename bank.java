@@ -14,9 +14,6 @@ public class bank {
         this.bankemail = bankemail;
         this.bankkontonummer = bankkontonummer;
     }
-    public String getBankname() {
-        return bankname;
-    }
     public void setBankname(String bankname) {
         this.bankname = bankname;
     }
