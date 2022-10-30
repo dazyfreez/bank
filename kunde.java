@@ -91,5 +91,35 @@ public class kunde {
     public void setGeburtsort(String geburtsort) {
         this.geburtsort = geburtsort;
     }
+    public String getGeburtsland() {
+        return geburtsland;
+    }
+    public void setGeburtsland(String geburtsland) {
+        this.geburtsland = geburtsland;
+    }
+    public String getStaatsangehoerigkeit() {
+        return staatsangehoerigkeit;
+    }
+    public void setStaatsangehoerigkeit(String staatsangehoerigkeit) {
+        this.staatsangehoerigkeit = staatsangehoerigkeit;
+    }
+    public String getBeruf() {
+        return beruf;
+    }
+    public void setBeruf(String beruf) {
+        this.beruf = beruf;
+    }
+    public String getFamilienstand() {
+        return familienstand;
+    }
+    public void setFamilienstand(String familienstand) {
+        this.familienstand = familienstand;
+    }
+    public String getAnzahlKinder() {
+        return anzahlKinder;
+    }
+    public void setAnzahlKinder(String anzahlKinder) {
+        this.anzahlKinder = anzahlKinder;
+    }
 
 }
