@@ -18,4 +18,44 @@ public class acount {
         this.bankname = bankname;
         this.bankadresse = bankadresse;
     }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getOwner() {
+        return owner;
+    }
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+    public String getIban() {
+        return iban;
+    }
+    public void setIban(String iban) {
+        this.iban = iban;
+    }
+    public String getBic() {
+        return bic;
+    }
+    public void setBic(String bic) {
+        this.bic = bic;
+    }
+    public String getKontonummer() {
+        return kontonummer;
+    }
+    public void setKontonummer(String kontonummer) {
+        this.kontonummer = kontonummer;
+    }
+    public String getBankleitzahl() {
+        return bankleitzahl;
+    }
+    public void setBankleitzahl(String bankleitzahl) {
+        this.bankleitzahl = bankleitzahl;
+    }
+    public String getBankname() {
+        return bankname;
+    }
+
 }
