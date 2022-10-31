@@ -14,6 +14,15 @@ public class bank {
         this.bankemail = bankemail;
         this.bankkontonummer = bankkontonummer;
     }
+    public static void main(String[] args) {
+        bank bank = new bank("Bankname", "Bankleitzahl", "Bankadresse", "Banktelefon", "Bankemail", "Bankkontonummer");
+        System.out.println(bank.getBankname());
+        System.out.println(bank.getBankleitzahl());
+        System.out.println(bank.getBankadresse());
+        System.out.println(bank.getBanktelefon());
+        System.out.println(bank.getBankemail());
+        System.out.println(bank.getBankkontonummer());
+    }
     public void setBankname(String bankname) {
         this.bankname = bankname;
     }
@@ -50,4 +59,9 @@ public class bank {
     public String getBankname() {
         return bankname;
     }
+    public void überweisung(String empfänger, String betrag) {
+        System.out.println("Überweisung an " + empfänger + " in Höhe von " + betrag + "€");
+    }
+    public String toString() {
+        return "Bankname: " + bankname + "
 }
